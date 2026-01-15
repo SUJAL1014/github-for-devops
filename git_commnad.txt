@@ -9,3 +9,11 @@ git status
 git commit -m  <commit message>
 
 git restore <filename>
+
+git remote add origin git@github.com:SUJAL1014/github-for-devops.git
+
+git remote -v
+
+git remote set-url origin https://<ACCESS_TOKEN>@github.com/SUJAL1014/github-for-devops.git
+
+git push origin master
